@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class FileStore implements InvoicePersistence {
+public class FileStore {
     private final Map<String, String> files = new HashMap<>();
 
     public void save(String name, String content) { files.put(name, content); }
